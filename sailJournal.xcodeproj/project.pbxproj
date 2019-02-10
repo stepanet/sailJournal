@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06636D2C20992C4900F4F4C1 /* UserCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D2B20992C4900F4F4C1 /* UserCollectionViewController.swift */; };
+		06636D2E20992E4500F4F4C1 /* UserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D2D20992E4500F4F4C1 /* UserCollectionViewCell.swift */; };
+		06636D30209A70B400F4F4C1 /* PlaceCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06636D2F209A70B400F4F4C1 /* PlaceCollectionViewController.swift */; };
+		066CEF37209A77130068D574 /* DetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066CEF36209A77130068D574 /* DetailCollectionViewController.swift */; };
+		066CEF39209A89890068D574 /* CollectionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066CEF38209A89890068D574 /* CollectionDetailView.swift */; };
+		0B5EF93A6F0E23A8C8C7246F /* libPods-sailJournal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EA905FFCB650A7539B9BD9 /* libPods-sailJournal.a */; };
+		3B8B53A820795DD600B43A2A /* UITabBarNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8B53A720795DD600B43A2A /* UITabBarNewController.swift */; };
+		3B9C033120743E4D009A55B4 /* gmapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C031920743E41009A55B4 /* gmapsViewController.swift */; };
+		3B9C033220743E4D009A55B4 /* drawViewOnew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C031A20743E41009A55B4 /* drawViewOnew.swift */; };
+		3B9C033320743E4D009A55B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C031B20743E42009A55B4 /* LoginViewController.swift */; };
+		3B9C033520743E4D009A55B4 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C031D20743E43009A55B4 /* ProfileTableViewController.swift */; };
+		3B9C033720743E4D009A55B4 /* UIViewGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C031F20743E44009A55B4 /* UIViewGradient.swift */; };
+		3B9C033820743E4D009A55B4 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032020743E44009A55B4 /* CustomNavigationController.swift */; };
+		3B9C033920743E4D009A55B4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032120743E45009A55B4 /* CustomTableViewCell.swift */; };
+		3B9C033A20743E4D009A55B4 /* webChatWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032220743E45009A55B4 /* webChatWebView.swift */; };
+		3B9C033B20743E4D009A55B4 /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032320743E46009A55B4 /* CoreDataHandler.swift */; };
+		3B9C033C20743E4D009A55B4 /* chatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032420743E47009A55B4 /* chatViewController.swift */; };
+		3B9C033D20743E4D009A55B4 /* PlacesDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032520743E47009A55B4 /* PlacesDetailViewController.swift */; };
+		3B9C033E20743E4D009A55B4 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032620743E48009A55B4 /* SettingsTableViewController.swift */; };
+		3B9C033F20743E4D009A55B4 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032720743E48009A55B4 /* PlacesViewController.swift */; };
+		3B9C034020743E4D009A55B4 /* UserNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032820743E49009A55B4 /* UserNavigationItem.swift */; };
+		3B9C034120743E4D009A55B4 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032920743E49009A55B4 /* UsersViewController.swift */; };
+		3B9C034220743E4D009A55B4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032A20743E4A009A55B4 /* Reachability.swift */; };
+		3B9C034320743E4D009A55B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032B20743E4A009A55B4 /* AppDelegate.swift */; };
+		3B9C034420743E4D009A55B4 /* PoiPlacesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032C20743E4B009A55B4 /* PoiPlacesStruct.swift */; };
+		3B9C034520743E4D009A55B4 /* customPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032D20743E4C009A55B4 /* customPlacesTableViewCell.swift */; };
+		3B9C034620743E4D009A55B4 /* FrameworkKitClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032E20743E4C009A55B4 /* FrameworkKitClass.swift */; };
+		3B9C034720743E4D009A55B4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C032F20743E4D009A55B4 /* RegistrationViewController.swift */; };
+		3B9C034820743E4D009A55B4 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C033020743E4D009A55B4 /* UserDetailViewController.swift */; };
+		64CDBA761FDB0489002ADCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CDBA751FDB0489002ADCB0 /* Assets.xcassets */; };
+		64CF5CAF1FC099490085D787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CF5CAD1FC099490085D787 /* Main.storyboard */; };
+		64CF5CB41FC099490085D787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CF5CB21FC099490085D787 /* LaunchScreen.storyboard */; };
+		64CF5CBC1FC09B7D0085D787 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CF5CBB1FC09B7D0085D787 /* logo.png */; };
+		64CF5CBE1FC09B830085D787 /* back.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 64CF5CBD1FC09B830085D787 /* back.jpeg */; };
+		64D7E61C1FD46E3700627F68 /* sailJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D7E61A1FD46E3600627F68 /* sailJournal.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050F3026FB6FA5D1C811EEAC /* Pods-sailJournal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sailJournal.release.xcconfig"; path = "Pods/Target Support Files/Pods-sailJournal/Pods-sailJournal.release.xcconfig"; sourceTree = "<group>"; };
+		06636D2B20992C4900F4F4C1 /* UserCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewController.swift; sourceTree = "<group>"; };
+		06636D2D20992E4500F4F4C1 /* UserCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCollectionViewCell.swift; sourceTree = "<group>"; };
+		06636D2F209A70B400F4F4C1 /* PlaceCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceCollectionViewController.swift; sourceTree = "<group>"; };
+		066CEF36209A77130068D574 /* DetailCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewController.swift; sourceTree = "<group>"; };
+		066CEF38209A89890068D574 /* CollectionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetailView.swift; sourceTree = "<group>"; };
+		23EA905FFCB650A7539B9BD9 /* libPods-sailJournal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sailJournal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8B53A720795DD600B43A2A /* UITabBarNewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarNewController.swift; sourceTree = "<group>"; };
+		3B9C031920743E41009A55B4 /* gmapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gmapsViewController.swift; sourceTree = "<group>"; };
+		3B9C031A20743E41009A55B4 /* drawViewOnew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drawViewOnew.swift; sourceTree = "<group>"; };
+		3B9C031B20743E42009A55B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3B9C031D20743E43009A55B4 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		3B9C031F20743E44009A55B4 /* UIViewGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewGradient.swift; sourceTree = "<group>"; };
+		3B9C032020743E44009A55B4 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		3B9C032120743E45009A55B4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		3B9C032220743E45009A55B4 /* webChatWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webChatWebView.swift; sourceTree = "<group>"; };
+		3B9C032320743E46009A55B4 /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		3B9C032420743E47009A55B4 /* chatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chatViewController.swift; sourceTree = "<group>"; };
+		3B9C032520743E47009A55B4 /* PlacesDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesDetailViewController.swift; sourceTree = "<group>"; };
+		3B9C032620743E48009A55B4 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		3B9C032720743E48009A55B4 /* PlacesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		3B9C032820743E49009A55B4 /* UserNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNavigationItem.swift; sourceTree = "<group>"; };
+		3B9C032920743E49009A55B4 /* UsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		3B9C032A20743E4A009A55B4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3B9C032B20743E4A009A55B4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B9C032C20743E4B009A55B4 /* PoiPlacesStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoiPlacesStruct.swift; sourceTree = "<group>"; };
+		3B9C032D20743E4C009A55B4 /* customPlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customPlacesTableViewCell.swift; sourceTree = "<group>"; };
+		3B9C032E20743E4C009A55B4 /* FrameworkKitClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkKitClass.swift; sourceTree = "<group>"; };
+		3B9C032F20743E4D009A55B4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		3B9C033020743E4D009A55B4 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		3BBA2D0C212E0A4200A4AA38 /* sailJournal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sailJournal.entitlements; sourceTree = "<group>"; };
+		64CDBA751FDB0489002ADCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CF5CA41FC099490085D787 /* sailJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sailJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CF5CAE1FC099490085D787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64CF5CB31FC099490085D787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64CF5CB51FC099490085D787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CF5CBB1FC09B7D0085D787 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		64CF5CBD1FC09B830085D787 /* back.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpeg; sourceTree = "<group>"; };
+		64D7E61B1FD46E3600627F68 /* sailJournal1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sailJournal1.xcdatamodel; sourceTree = "<group>"; };
+		E3B82AB21F98F030817D4780 /* Pods-sailJournal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sailJournal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sailJournal/Pods-sailJournal.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CF5CA11FC099490085D787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5EF93A6F0E23A8C8C7246F /* libPods-sailJournal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06636D29209925C900F4F4C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C032E20743E4C009A55B4 /* FrameworkKitClass.swift */,
+				3B9C032C20743E4B009A55B4 /* PoiPlacesStruct.swift */,
+				066CEF38209A89890068D574 /* CollectionDetailView.swift */,
+				3B9C032A20743E4A009A55B4 /* Reachability.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06636D2A2099267000F4F4C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B9C032320743E46009A55B4 /* CoreDataHandler.swift */,
+				3B9C032420743E47009A55B4 /* chatViewController.swift */,
+				3B9C031A20743E41009A55B4 /* drawViewOnew.swift */,
+				3B9C031920743E41009A55B4 /* gmapsViewController.swift */,
+				3B9C031B20743E42009A55B4 /* LoginViewController.swift */,
+				3B9C031D20743E43009A55B4 /* ProfileTableViewController.swift */,
+				3B9C032F20743E4D009A55B4 /* RegistrationViewController.swift */,
+				3B9C032620743E48009A55B4 /* SettingsTableViewController.swift */,
+				3B9C032920743E49009A55B4 /* UsersViewController.swift */,
+				06636D2B20992C4900F4F4C1 /* UserCollectionViewController.swift */,
+				066CEF36209A77130068D574 /* DetailCollectionViewController.swift */,
+				06636D2F209A70B400F4F4C1 /* PlaceCollectionViewController.swift */,
+				3B8B53A720795DD600B43A2A /* UITabBarNewController.swift */,
+				3B9C031F20743E44009A55B4 /* UIViewGradient.swift */,
+				3B9C033020743E4D009A55B4 /* UserDetailViewController.swift */,
+				3B9C032720743E48009A55B4 /* PlacesViewController.swift */,
+				3B9C032520743E47009A55B4 /* PlacesDetailViewController.swift */,
+				3B9C032020743E44009A55B4 /* CustomNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2BE104475656EA4132FEFFB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23EA905FFCB650A7539B9BD9 /* libPods-sailJournal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6401F4601FE4808D00C679F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				06636D2D20992E4500F4F4C1 /* UserCollectionViewCell.swift */,
+				3B9C032B20743E4A009A55B4 /* AppDelegate.swift */,
+				3B9C032D20743E4C009A55B4 /* customPlacesTableViewCell.swift */,
+				3B9C032120743E45009A55B4 /* CustomTableViewCell.swift */,
+				3B9C032820743E49009A55B4 /* UserNavigationItem.swift */,
+				3B9C032220743E45009A55B4 /* webChatWebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		64CF5C9B1FC099490085D787 = {
+			isa = PBXGroup;
+			children = (
+				64CF5CA61FC099490085D787 /* sailJournal */,
+				64CF5CA51FC099490085D787 /* Products */,
+				9E9AE3B73767BB20A255E0A8 /* Pods */,
+				2BE104475656EA4132FEFFB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64CF5CA51FC099490085D787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CF5CA41FC099490085D787 /* sailJournal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CF5CA61FC099490085D787 /* sailJournal */ = {
+			isa = PBXGroup;
+			children = (
+				3BBA2D0C212E0A4200A4AA38 /* sailJournal.entitlements */,
+				06636D2A2099267000F4F4C1 /* Controller */,
+				06636D29209925C900F4F4C1 /* Model */,
+				64CF5CBF1FC09B930085D787 /* image */,
+				6401F4601FE4808D00C679F3 /* View */,
+				64D7E61A1FD46E3600627F68 /* sailJournal.xcdatamodeld */,
+				64CF5CAD1FC099490085D787 /* Main.storyboard */,
+				64CF5CB21FC099490085D787 /* LaunchScreen.storyboard */,
+				64CF5CB51FC099490085D787 /* Info.plist */,
+				64CDBA751FDB0489002ADCB0 /* Assets.xcassets */,
+			);
+			path = sailJournal;
+			sourceTree = "<group>";
+		};
+		64CF5CBF1FC09B930085D787 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				64CF5CBB1FC09B7D0085D787 /* logo.png */,
+				64CF5CBD1FC09B830085D787 /* back.jpeg */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9E9AE3B73767BB20A255E0A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3B82AB21F98F030817D4780 /* Pods-sailJournal.debug.xcconfig */,
+				050F3026FB6FA5D1C811EEAC /* Pods-sailJournal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CF5CA31FC099490085D787 /* sailJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CF5CB81FC099490085D787 /* Build configuration list for PBXNativeTarget "sailJournal" */;
+			buildPhases = (
+				F8786BFF0A00AD05A80ECB49 /* [CP] Check Pods Manifest.lock */,
+				64CF5CA01FC099490085D787 /* Sources */,
+				64CF5CA11FC099490085D787 /* Frameworks */,
+				64CF5CA21FC099490085D787 /* Resources */,
+				B384687E23B6C110CC385E43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sailJournal;
+			productName = sailJournal;
+			productReference = 64CF5CA41FC099490085D787 /* sailJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CF5C9C1FC099490085D787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					"ГУГЛКАРТА",
+				);
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Dmitry Pyatin";
+				TargetAttributes = {
+					64CF5CA31FC099490085D787 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0940;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ClassKit = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 64CF5C9F1FC099490085D787 /* Build configuration list for PBXProject "sailJournal" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64CF5C9B1FC099490085D787;
+			productRefGroup = 64CF5CA51FC099490085D787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CF5CA31FC099490085D787 /* sailJournal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CF5CA21FC099490085D787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF5CB41FC099490085D787 /* LaunchScreen.storyboard in Resources */,
+				64CF5CAF1FC099490085D787 /* Main.storyboard in Resources */,
+				64CF5CBC1FC09B7D0085D787 /* logo.png in Resources */,
+				64CDBA761FDB0489002ADCB0 /* Assets.xcassets in Resources */,
+				64CF5CBE1FC09B830085D787 /* back.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B384687E23B6C110CC385E43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sailJournal/Pods-sailJournal-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sailJournal/Pods-sailJournal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8786BFF0A00AD05A80ECB49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sailJournal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CF5CA01FC099490085D787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9C034520743E4D009A55B4 /* customPlacesTableViewCell.swift in Sources */,
+				066CEF37209A77130068D574 /* DetailCollectionViewController.swift in Sources */,
+				06636D2C20992C4900F4F4C1 /* UserCollectionViewController.swift in Sources */,
+				3B9C034620743E4D009A55B4 /* FrameworkKitClass.swift in Sources */,
+				3B9C034020743E4D009A55B4 /* UserNavigationItem.swift in Sources */,
+				3B9C033520743E4D009A55B4 /* ProfileTableViewController.swift in Sources */,
+				3B9C034220743E4D009A55B4 /* Reachability.swift in Sources */,
+				3B9C033C20743E4D009A55B4 /* chatViewController.swift in Sources */,
+				3B9C033B20743E4D009A55B4 /* CoreDataHandler.swift in Sources */,
+				3B9C033320743E4D009A55B4 /* LoginViewController.swift in Sources */,
+				3B9C033820743E4D009A55B4 /* CustomNavigationController.swift in Sources */,
+				3B9C034320743E4D009A55B4 /* AppDelegate.swift in Sources */,
+				3B9C034120743E4D009A55B4 /* UsersViewController.swift in Sources */,
+				3B9C033D20743E4D009A55B4 /* PlacesDetailViewController.swift in Sources */,
+				3B9C033220743E4D009A55B4 /* drawViewOnew.swift in Sources */,
+				64D7E61C1FD46E3700627F68 /* sailJournal.xcdatamodeld in Sources */,
+				3B9C033920743E4D009A55B4 /* CustomTableViewCell.swift in Sources */,
+				06636D30209A70B400F4F4C1 /* PlaceCollectionViewController.swift in Sources */,
+				3B9C033E20743E4D009A55B4 /* SettingsTableViewController.swift in Sources */,
+				066CEF39209A89890068D574 /* CollectionDetailView.swift in Sources */,
+				3B8B53A820795DD600B43A2A /* UITabBarNewController.swift in Sources */,
+				3B9C034720743E4D009A55B4 /* RegistrationViewController.swift in Sources */,
+				3B9C034420743E4D009A55B4 /* PoiPlacesStruct.swift in Sources */,
+				3B9C033F20743E4D009A55B4 /* PlacesViewController.swift in Sources */,
+				3B9C034820743E4D009A55B4 /* UserDetailViewController.swift in Sources */,
+				3B9C033A20743E4D009A55B4 /* webChatWebView.swift in Sources */,
+				3B9C033720743E4D009A55B4 /* UIViewGradient.swift in Sources */,
+				3B9C033120743E4D009A55B4 /* gmapsViewController.swift in Sources */,
+				06636D2E20992E4500F4F4C1 /* UserCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64CF5CAD1FC099490085D787 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CF5CAE1FC099490085D787 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64CF5CB21FC099490085D787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CF5CB31FC099490085D787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CF5CB61FC099490085D787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64CF5CB71FC099490085D787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64CF5CB91FC099490085D787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B82AB21F98F030817D4780 /* Pods-sailJournal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A2MDG26ZT;
+				INFOPLIST_FILE = sailJournal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepanet.sailJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64CF5CBA1FC099490085D787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 050F3026FB6FA5D1C811EEAC /* Pods-sailJournal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A2MDG26ZT;
+				INFOPLIST_FILE = sailJournal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.stepanet.sailJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CF5C9F1FC099490085D787 /* Build configuration list for PBXProject "sailJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CF5CB61FC099490085D787 /* Debug */,
+				64CF5CB71FC099490085D787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CF5CB81FC099490085D787 /* Build configuration list for PBXNativeTarget "sailJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CF5CB91FC099490085D787 /* Debug */,
+				64CF5CBA1FC099490085D787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64D7E61A1FD46E3600627F68 /* sailJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64D7E61B1FD46E3600627F68 /* sailJournal1.xcdatamodel */,
+			);
+			currentVersion = 64D7E61B1FD46E3600627F68 /* sailJournal1.xcdatamodel */;
+			path = sailJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64CF5C9C1FC099490085D787 /* Project object */;
+}
